@@ -27,31 +27,31 @@ WP Media Cloud automatically uploads media attachments from your WordPress site 
 3. Configure the plugin by going to the settings page and adding your S3-compatible cloud storage credentials into the wp-config.php file.
 
 - For [Idrive E2](https://www.idrive.com/s3-storage-e2/guides/default), add the following to wp-config.php:
-`
+```
 	define( 'WPMC_IDRIVEE2_KEY', 'your-access-key' );
 	define( 'WPMC_IDRIVEE2_SECRET', 'your-secret-key' );
 	define( 'WPMC_IDRIVEE2_ENDPOINT', 'your-endpoint-url' );
 	define( 'WPMC_IDRIVEE2_BUCKET', ''your-bucket-name' );
 	define( 'WPMC_IDRIVEE2_DOMAIN', 'your-domain-url' );
-`
+```
 
 - For [Cloudflare R2](https://developers.cloudflare.com/r2/), add the following to wp-config.php:
-`
+```
 	define('WPMC_CLOUDFLARE_R2_KEY', 'your-access-key');
 	define('WPMC_CLOUDFLARE_R2_SECRET', 'your-secret-key');
 	define('WPMC_CLOUDFLARE_R2_BUCKET', 'your-bucket-name');
     define('WPMC_CLOUDFLARE_R2_DOMAIN', 'your-domain-url');
     define('WPMC_CLOUDFLARE_R2_ENDPOINT', 'your-endpoint-url');
-`
+```
 
 - For [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces), add the following to wp-config.php:
-`
+```
 	define('WPMC_DOS_KEY', 'your-access-key');
 	define('WPMC_DOS_SECRET', 'your-secret-key');
 	define('WPMC_DOS_BUCKET', 'your-bucket-name');
     define('WPMC_DOS_DOMAIN', 'your-domain-url');
     define('WPMC_DOS_ENDPOINT', 'your-endpoint-url');
-`
+```
 
 == Frequently Asked Questions ==
 
